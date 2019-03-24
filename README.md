@@ -1,5 +1,10 @@
 ## Welcome to GitHub Pages
 
+Features to be added :
+1) User Login and db
+2) Reminder push notifications via email and text
+3) Google of Facebook OAuth
+
 You can use the [editor on GitHub](https://github.com/jai7/ToDo/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.

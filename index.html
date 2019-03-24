@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A Personal To-Do Anywhere</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+    <link rel="Stylesheet" href="css/to-do.css"></link>
+</head>
+<body class="body">
+    <section id="todoLayout">
+    <header>
+        <h2>To-Do List Tracker</h2>
+    </header>
+    <section class="addTask">
+    <input type="text" id="txtTask" class="" placeholder="add your to-do task here.." />
+    <button id="addTask" onclick="addTask()">Add task</button>
+    </section>
+    <section class="viewTasks">
+        <ol type="1" class="taskList">
+            <!-- <li><span><i class="fa fa-trash" aria-hidden="true">Complete to-do html layout</i><span</li>
+            <li>CSS styling </li>
+            <li>Add events using JS</li> -->
+        </ol>
+    </section>
+
+    <section class="operationsOnTasks">
+        <button onclick="saveList()">Save List</button>
+        <button onclick="clearAll()">Clear all</button>
+        <button onclick="popUp()">Instructions</button>
+    </section>
+    <br><br><br>
+</section>
+<footer style="position:relative;">@powered by J/\! 2019</footer>
+<script src="js/to-do.js"></script>
+</body>
+</html>
